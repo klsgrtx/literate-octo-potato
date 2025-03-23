@@ -4,7 +4,7 @@ const palette = frappe;
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "-97.56,30.73",
+    location: "Austin",
     scale: "F",
   },
   clock: {
