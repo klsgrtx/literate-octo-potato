@@ -4,8 +4,8 @@ const palette = macchiato;
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "London",
-    scale: "C",
+    location: "Granger, Texas, USA",
+    scale: "F",
   },
   clock: {
     format: "h:i p",
@@ -16,7 +16,7 @@ const default_config = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "myself",
+      name: "Ken",
       background_url: "src/img/banners/cbg-09.gif",
       categories: [
         {
@@ -30,7 +30,7 @@ const default_config = {
             },
             {
               name: "musicForProgramming();",
-              url: "https://musicforprogramming.net",
+              url: "https://www.youtube.com/watch?v=OmqMKbKkSv0&list=PLfjd9VdwyeO0G7OtWLda95svvqZg5jk7g",
               icon: "binary-tree",
               icon_color: palette.peach,
             },
@@ -43,6 +43,12 @@ const default_config = {
               name: "gmail",
               url: "https://mail.google.com",
               icon: "brand-gmail",
+              icon_color: palette.green,
+            },
+            {
+              name: "y-mail",
+              url: "https://mail.yahoo.com",
+              icon: "brand-yahoo",
               icon_color: palette.green,
             },
             {
@@ -69,35 +75,11 @@ const default_config = {
           name: "media",
           links: [
             {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
+              name: "news.google",
+              url: "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en",
               icon: "news",
               icon_color: palette.green,
-            },
-            {
-              name: "mil.in.ua",
-              url: "https://mil.in.ua",
-              icon: "badge-filled",
-              icon_color: palette.peach,
-            },
-            {
-              name: "куток",
-              url: "https://kutok.io",
-              icon: "border-radius",
-              icon_color: palette.red,
-            },
-            {
-              name: "ґрунт",
-              url: "https://grnt.media",
-              icon: "eye-bolt",
-              icon_color: palette.blue,
-            },
-            {
-              name: "village",
-              url: "https://www.village.com.ua",
-              icon: "home-2",
-              icon_color: palette.mauve,
-            },
+            }
           ],
         },
       ],
